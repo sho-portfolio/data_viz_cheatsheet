@@ -22,6 +22,9 @@ fig.show()
  - log into your github account (if needed) and select the repo you need (i.e. dash_test) then click "connect"
  - under "manual deploy" click "deploy branch"
 
+- discussion on types of basic forcasting techniques:
+  - qaualitative (delphi method, market research, panel consensus, visionary forecast, historical analogy)
+
  - https://signup.heroku.com/account
  - instructions to install heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
  
