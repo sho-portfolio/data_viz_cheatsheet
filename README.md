@@ -5,7 +5,7 @@
 ### data visualization article (plotly)
 - https://towardsdatascience.com/build-a-web-data-dashboard-in-just-minutes-with-python-d722076aee2b
 
-```pyhton 
+```python 
 import plotly.express as px
 fig = px.scatter(all_teams_df[all_teams_df.group == 'NOP'], x='min_mid', y='player', size='shots_freq', color='pl_pps')
 fig.show()
