@@ -2,8 +2,12 @@
 
 # heroku, flask, plotly, python
 
-# article that got me started
+# article that got me started (plotly data viz)
 ## https://towardsdatascience.com/build-a-web-data-dashboard-in-just-minutes-with-python-d722076aee2b
+
+# article that showed me how to easily make my data-viz avaikable on the web
+## https://medium.com/@austinlasseter/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73
+
 
 # used jupyter notebooks to test
 
