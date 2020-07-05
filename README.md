@@ -1,6 +1,6 @@
 ## data visualization cheatsheet
 
-### heroku, flask, plotly, python, dash
+### [heroku, flask, plotly, python, dash]
 
 ### data visualization article (plotly)
 - https://towardsdatascience.com/build-a-web-data-dashboard-in-just-minutes-with-python-d722076aee2b
