@@ -22,6 +22,13 @@ fig.show()
   - log into your github account (if needed) and select the repo you need (i.e. dash_test) then click "connect"
   - under "manual deploy" click "deploy branch"
 
+- You'll need the following files in a github repository:
+  - app.py (your python code)
+  - Procfile (no idea what this)
+  - ```
+  web: gunicorn app:server
+  ```
+
  - https://signup.heroku.com/account
  - instructions to install heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
  
