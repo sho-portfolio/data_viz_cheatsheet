@@ -22,18 +22,19 @@ fig.show()
   - log into your github account (if needed) and select the repo you need (i.e. dash_test) then click "connect"
   - under "manual deploy" click "deploy branch"
 
-- You'll need the following files in a github repository:
+- You'll need the following files in a github repository (i.e. https://github.com/sho-portfolio/dash_test):
   - app.py (your python code)
   - Procfile (no idea what this)
-  ```
-  web: gunicorn app:server
-  ```
-
+  - requirements.txt (your pip installation file) 
+  
  - https://signup.heroku.com/account
  - instructions to install heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
  
 
 ### deploy data visualization to html automatically
 - https://towardsdatascience.com/how-to-create-a-plotly-visualization-and-embed-it-on-websites-517c1a78568b
-
+```python
+import plotly.io as pio
+pio.write_html(fig, file=’index.html’, auto_open=True)
+```
 
