@@ -15,12 +15,12 @@ fig.show()
 ### deploy data visualization online (heroku)
 - https://medium.com/@austinlasseter/how-to-deploy-a-simple-plotly-dash-app-to-heroku-622a2216eb73
  - goto https://dashboard.heroku.com/apps
- - click "new" -> "create new app"
- - give it an app-name
- - click "create app"
- - under "deployment method" select "github"
- - log into your github account (if needed) and select the repo you need (i.e. dash_test) then click "connect"
- - under "manual deploy" click "deploy branch"
+  - click "new" -> "create new app"
+  - give it an app-name
+  - click "create app"
+  - under "deployment method" select "github"
+  - log into your github account (if needed) and select the repo you need (i.e. dash_test) then click "connect"
+  - under "manual deploy" click "deploy branch"
 
  - https://signup.heroku.com/account
  - instructions to install heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
