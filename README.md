@@ -26,8 +26,8 @@ fig.show()
   - app.py (your python code)
   - Procfile (no idea what this)
   - ```
-  web: gunicorn app:server
-  ```
+  - web: gunicorn app:server
+  - ```
 
  - https://signup.heroku.com/account
  - instructions to install heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
